@@ -43,7 +43,6 @@ const addNumberToScreen = (e) => {
 };
 
 const operationToDo = (e) => {
-  //Clearing the resultDiv for the next input
   resultDiv.innerHTML = "";
 
   if (previousValue) {
